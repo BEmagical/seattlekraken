@@ -156,7 +156,6 @@ add_action( 'init', 'ryu_fonts' );
  * Enqueue scripts and styles
  */
 function ryu_scripts() {
-	wp_enqueue_style( 'ryu-style', get_stylesheet_uri() );
 
 	wp_enqueue_style( 'ryu-lato' );
 
