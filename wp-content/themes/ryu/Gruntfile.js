@@ -5,8 +5,6 @@ module.exports = function(grunt) {
     require('load-grunt-tasks')(grunt);
 
     grunt.initConfig({
-
-        // watch for changes and trigger compass, jshint, uglify and livereload
         watch: {
             compass: {
                 files: ['assets/scss/**/*.{scss,sass}'],
@@ -21,8 +19,6 @@ module.exports = function(grunt) {
                 files: ['style.css', 'assets/js/*.js', '*.html', '*.php', 'assets/images/**/*.{png,jpg,jpeg,gif,webp,svg}']
             }
         },
-
-        // compass and scss
         compass: {
             dist: {
                 options: {
@@ -31,8 +27,6 @@ module.exports = function(grunt) {
                 }
             }
         },
-
-        // javascript linting with jshint
         jshint: {
             options: {
                 jshintrc: '.jshintrc',
@@ -43,8 +37,6 @@ module.exports = function(grunt) {
                 'assets/js/source/**/*.js'
             ]
         },
-
-        // uglify to concat, minify, and make source maps
         uglify: {
             plugins: {
                 options: {
@@ -72,8 +64,6 @@ module.exports = function(grunt) {
                 }
             }
         },
-
-        // image optimization
         imagemin: {
             dist: {
                 options: {
@@ -88,8 +78,6 @@ module.exports = function(grunt) {
                 }]
             }
         },
-
-        // deploy via rsync
         deploy: {
             options: {
                 src: "./",
@@ -114,10 +102,8 @@ module.exports = function(grunt) {
 
     });
 
-    // rename tasks
     grunt.renameTask('rsync', 'deploy');
 
-    // register task
     grunt.registerTask('default', ['watch']);
 
 };
