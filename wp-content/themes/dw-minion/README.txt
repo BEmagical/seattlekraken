@@ -26,6 +26,15 @@ Modernizr 2.6.2 - http://modernizr.com/
 Please post your questions in Questions & Answers page or drop us an email to help@designwall.com
 
 == Changelog ==
+= 1.1.3 =
+* Tweak: Change Layout setting to Align setting in Customize panel.
+* Tweak: Change footer link to nofollow.
+
+= 1.1.2 =
+* New: Add top-sidebar position.
+* New: Add new setting in Customize function to change color of the left sidebar.
+* Fix: Top menu issue on mobile devices in WordPress 3.8.
+
 = 1.1.1 =
 * Fix: Remove JS bugs in widgets page.
 

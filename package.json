@@ -1,0 +1,13 @@
+{
+  "name": "moneyball",
+  "author": "Brian Enriquez",
+  "description": "#2Legit2Quit, Why the Almighty Oakland A's are the Most Interesting Team in Baseball",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bemagical/moneyball"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-rsync": "~0.2.1"
+  }
+}
