@@ -7,7 +7,7 @@ module.exports = function(grunt) {
       options: {
         args: ["--verbose"],
         recursive: true,
-        exclude: [".git*", "node_modules", "Gruntfile.coffee", "package.json", "wp-config.php"]
+        exclude: [".git*", "node_modules", "Gruntfile.js", "package.json", "wp-config.php"]
       },
       production: {
         options: {

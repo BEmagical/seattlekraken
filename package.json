@@ -4,7 +4,7 @@
   "description": "#2Legit2Quit, Why the Almighty Oakland A's are the Most Interesting Team in Baseball",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bemagical/moneyball"
+    "url": "https://github.com/BEmagical/moneyball"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
